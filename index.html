@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>Hands-on Two -Form</title>
+    
+</head>
+
+<body>
+    <h1>FORMS</h1>
+    <!-- Name field -->
+    <form action="./index2.html">
+        <label for="username">Name</Nav></label>
+        <input type="text" id="username" name="name" value="Vinu"><br><br>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required ><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="language">Language</label><br><br>
+        <input type="radio" id="language" value="React" name="language">React<br>
+        <input type="radio" id="language" value="Angular" name="language">Angular<br>
+        <input type="radio" id="language" value="Vue" name="language" >Vue<br><br>
+
+        
+        <label for="course" >Course</label><br>
+        <input type="checkbox" aria-required="true" id="course" value="MERN" name="course1" required>MERN<br>
+        <input type="checkbox" aria-required="true" id="course" value="MEAN" name="course2">MEAN<br>
+        <input type="checkbox" aria-required="true" id="course" value="MEVN" name="course3">MEVN<br><br>
+        
+        <label for="field">Field:</label><br>
+
+        <select name="field" id="field">
+            <option value="frontend"    id = "field"  name = "field">   Front end  </option>
+            <option value="backend"     id = "field"  name = "field">   Back end   </option>
+            <option value="fullstack"   id = "field"  name = "field">   Full stack </option>
+        </select><br><br>
+
+        <textarea name="description"  style="width:300px; height:150px;"></textarea><br><br>
+
+        <label for="phone">phone</label>
+        <input type="number" id="phone" name="phone" pattern="/d/d/d/d/d/d/d/d/d/d">
+
+        <button>Submit</button>
+    </form>
+    <h1>TABLES</h1>
+    <a href="index3.html">Click Here</a>
+    
+</body>
+</html>
